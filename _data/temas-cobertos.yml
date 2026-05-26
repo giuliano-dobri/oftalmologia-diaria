@@ -1,3 +1,10 @@
 {
-  "aulas": []
+  "aulas": [
+    {
+      "data": "2026-05-26",
+      "area": "ceratocone",
+      "tema": "BAD-D (Belin-Ambrósio Display): interpretação e valores de corte",
+      "tags": ["Pentacam", "BAD-D", "diagnóstico", "ceratocone", "screening", "ectasia", "TBI"]
+    }
+  ]
 }
