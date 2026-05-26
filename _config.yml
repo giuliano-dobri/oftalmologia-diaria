@@ -12,14 +12,14 @@ minimal_mistakes_skin: "air"
 # =============================================================================
 # IDENTIDADE DO SITE [REPLICAR]
 # =============================================================================
-title: "Editorial Diário de Nutrologia"
-subtitle: "Briefing diário e aprendizado contínuo"
+title: "Editorial de Refrativa, Córnea e Ceratocone"
+subtitle: "Atualizações e aulas a cada dois dias"
 description: >-
-  Atualizações diárias e aulas em nutrologia, geradas com apoio de inteligência
-  artificial e revisadas para fins educativos.
+  Briefing e aulas técnicas em cirurgia refrativa, córnea e ceratocone,
+  com regras explícitas anti-alucinação. Material educativo.
 url: "https://giuliano-dobri.github.io"
-baseurl: "/nutrologia-diaria"
-repository: "giuliano-dobri/nutrologia-diaria"
+baseurl: "/oftalmologia-diaria"
+repository: "giuliano-dobri/oftalmologia-diaria"
 
 # Idioma e localização
 locale: "pt-BR"
