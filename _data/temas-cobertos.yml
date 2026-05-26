@@ -1,26 +1,3 @@
-# Lista de temas já cobertos pelas aulas, populada automaticamente pela routine.
-# Formato:
-# - data: 2026-05-27
-#   tema: "Nome do tema"
-#   tags: [tag1, tag2]
-#   slug: "slug-do-post"
-
-- data: 2026-05-26
-  tema: "Vitamina D — diagnóstico, suplementação e a questão D2 versus D3"
-  tags: [vitamina-D, colecalciferol, ergocalciferol, deficiência, suplementação]
-  slug: "vitamina-d-diagnostico-suplementacao"
-
-- data: 2026-05-26
-  tema: "Tirzepatida — mecanismo dual GIP/GLP-1 e comparação com semaglutida"
-  tags: [tirzepatida, semaglutida, GLP-1, GIP, obesidade]
-  slug: "tirzepatida-gip-glp1-comparacao"
-
-- data: 2026-05-26
-  tema: "Sarcopenia — diagnóstico e manejo nutrológico"
-  tags: [sarcopenia, proteína, treinamento-resistido, EWGSOP2, envelhecimento]
-  slug: "sarcopenia-diagnostico-manejo"
-
-- data: 2026-05-26
-  tema: "Lipídios — definição, classificação, fontes e metabolismo"
-  tags: [lipídios, triglicerídeos, ácidos-graxos, lipoproteínas, colesterol, metabolismo]
-  slug: "lipidios-classificacao-metabolismo"
+{
+  "aulas": []
+}
