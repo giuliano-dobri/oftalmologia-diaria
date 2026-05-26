@@ -1,0 +1,200 @@
+# =============================================================================
+# TEMAS PRIORITÁRIOS — EDITORIAL DIÁRIO DE NUTROLOGIA
+# =============================================================================
+#
+# COMO USAR:
+# - A routine consulta este arquivo todo dia antes de escolher o tema.
+# - Pega o PRIMEIRO tema não-comentado da lista que ainda não foi coberto nos
+#   últimos 60 dias (consulta _data/temas-cobertos.yml).
+# - Após usar um tema, a routine COMENTA a linha (adiciona "# USADO em DD/MM/AAAA").
+# - Para "pular" um tema temporariamente: comente a linha manualmente (adicione #).
+# - Para reordenar prioridades: mova a linha para cima.
+# - Para adicionar tema novo: insira nova entrada onde quiser na lista.
+#
+# FORMATO:
+# - tema: "Nome do tema"
+#   prioridade: alta | media | baixa  (opcional, default: media)
+#   notas: "Observações"  (opcional)
+#
+# =============================================================================
+# CURRICULUM — temas organizados aproximadamente na ordem de um curso de
+# nutrologia. A routine vai descendo pela lista. Você pode reordenar livremente.
+# =============================================================================
+
+# --- MACRONUTRIENTES ---
+# USADO em 26/05/2026 - tema: "Lipídios — definição, classificação, fontes e metabolismo"
+- tema: "Proteínas — definição, classificação, fontes e metabolismo"
+- tema: "Carboidratos — definição, classificação, fontes e metabolismo energético"
+
+# --- MICRONUTRIENTES ---
+- tema: "Vitamina D e osteoporose — diagnóstico, tratamento nutrológico e medicamentoso"
+- tema: "Vitaminas — metabolismo, funções, fisiopatologia das deficiências e do excesso"
+- tema: "Ferro, manganês, magnésio e vitamina B12 — metabolismo, deficiências e tratamento"
+- tema: "Antioxidantes em doenças — evidência de revisões sistemáticas e meta-análises"
+- tema: "Suplementos vitamínicos e riscos em megadoses"
+
+# --- AVALIAÇÃO NUTROLÓGICA ---
+- tema: "Antropometria e bioimpedância — interpretação de resultados"
+- tema: "Gasto energético basal e total — como estimar"
+- tema: "Anamnese alimentar — recordatório, registro e planejamento de dietas"
+- tema: "Avaliação de massa muscular por ultrassonografia"
+
+# --- DIETAS ---
+- tema: "Elaboração de plano alimentar — princípios e prática"
+- tema: "Plant-based diet e alimentação vegetariana"
+- tema: "Dietas da moda — histórico, características e perda de peso"
+- tema: "Dietas low carb, high protein e high fat — racional, evidência e indicações"
+- tema: "Nutrição enteral domiciliar — calorimetria, equações preditivas e caso clínico"
+- tema: "Cálculo de nutrição enteral no adulto"
+- tema: "Cálculo de nutrição parenteral no adulto"
+
+# --- GENÉTICA E NUTROLOGIA ---
+- tema: "Genética e gênomica nutricional — conceitos básicos"
+- tema: "Nutrigenética — princípios e aplicação clínica"
+- tema: "Nutrigenômica — princípios e aplicação clínica"
+- tema: "Epigenética nutricional"
+- tema: "Genética e câncer — implicações nutrológicas"
+- tema: "Genética do envelhecimento"
+
+# --- OBESIDADE ---
+- tema: "Obesidade, obesidade sarcopênica e síndrome metabólica — definição, epidemiologia e fisiopatologia"
+- tema: "Papel do cérebro na fisiopatologia da obesidade e neuroestimulação transcraniana"
+- tema: "Microbiota intestinal na fisiopatologia da obesidade"
+- tema: "Tratamento dietético da obesidade"
+- tema: "Jejum intermitente, dieta cetogênica e low carb na obesidade"
+- tema: "Tratamento medicamentoso da obesidade — quando indicar e como prescrever"
+- tema: "Avaliação cardiológica prévia à prescrição de exercício no paciente com obesidade"
+- tema: "Exercício aeróbio e treino de força na obesidade e emagrecimento"
+- tema: "Terapia cognitivo-comportamental na obesidade"
+- tema: "Nutrição comportamental na obesidade"
+- tema: "Mindful eating no tratamento da obesidade"
+- tema: "Hipertensão arterial — diagnóstico e tratamento na ótica nutrológica"
+
+# --- ATUALIZAÇÃO: GLP-1 E PEPTÍDEOS ---
+- tema: "Análogos de GLP-1 e novos peptídeos — atualização sobre evidências, lançamentos e perspectivas"
+  prioridade: alta
+  notas: "Tema de atualização recorrente. Cada vez que aparece, focar nas novidades dos últimos meses (novos compostos como retatrutida, ensaios clínicos recém-publicados, indicações expandidas, efeitos adversos descritos)."
+
+# --- CIRURGIA BARIÁTRICA ---
+- tema: "Avaliação psicológica no pré-operatório da cirurgia bariátrica"
+- tema: "Obesidade e cirurgia bariátrica — indicações, técnicas e resultados"
+- tema: "Protocolo clínico em cirurgia bariátrica e deficiências nutricionais no pós-operatório"
+- tema: "Complicações psicológicas no pós-operatório da bariátrica"
+- tema: "Complicações cirúrgicas pós-bariátrica"
+- tema: "Hipoglicemia após cirurgia bariátrica"
+- tema: "Dietoterapia pré e pós-operatória em cirurgia bariátrica"
+- tema: "Tratamento clínico na recidiva de obesidade pós-bariátrica"
+- tema: "Tratamento cirúrgico na recidiva de obesidade"
+- tema: "Genética, obesidade e cirurgia bariátrica"
+
+# --- DIABETES ---
+- tema: "Da intolerância à glicose ao diabetes mellitus — fisiopatologia"
+- tema: "Dietas e estilo de vida no tratamento do diabetes mellitus"
+- tema: "Adoçantes dietéticos e contagem de carboidratos"
+- tema: "Diabetes mellitus — atualização no diagnóstico e tratamento medicamentoso"
+
+# --- DISLIPIDEMIAS ---
+- tema: "Metabolismo de lipídios e lipoproteínas — lipídios séricos, alimentares e aterosclerose"
+- tema: "Tratamento medicamentoso das hiperlipemias"
+- tema: "Tratamento não-medicamentoso e alternativo das hiperlipemias"
+- tema: "Planejamento alimentar na hipercolesterolemia e hipertrigliceridemia"
+- tema: "Novas perspectivas no tratamento de dislipidemia"
+
+# --- SUBNUTRIÇÃO ---
+- tema: "Fome oculta — deficiências subclínicas de micronutrientes"
+- tema: "Subnutrição energético-proteica — definição, etiologia, fisiopatologia e diagnóstico"
+- tema: "Síndrome de realimentação — fisiopatologia, prevenção e manejo"
+- tema: "Tratamento da subnutrição energético-proteica — terapia oral e enteral"
+- tema: "Tratamento da subnutrição energético-proteica — terapia parenteral"
+
+# --- DOENÇAS DO TRATO GASTROINTESTINAL ---
+- tema: "Síndrome do intestino curto — definição, fisiopatologia e quadro clínico"
+- tema: "Terapia nutricional oral e enteral na síndrome do intestino curto"
+- tema: "Terapia nutricional parenteral na síndrome do intestino curto"
+- tema: "Transplante intestinal — indicações e manejo nutrológico"
+- tema: "Terapia nutrológica na doença inflamatória intestinal e intolerância à lactose"
+- tema: "Síndrome do intestino irritável — FODMAPs, terapia nutrológica e probióticos"
+- tema: "Doença celíaca, sensibilidade ao glúten não celíaca e terapia nutrológica"
+- tema: "Pancreatite aguda e crônica — manejo nutrológico"
+- tema: "Doença hepática gordurosa não-alcoólica (MASLD)"
+- tema: "Cuidados metabólicos no paciente cirúrgico e alimentação no pós-operatório"
+
+# --- NUTROLOGIA NA SAÚDE DA MULHER ---
+- tema: "Nutrologia na gestação — necessidades e suplementação"
+- tema: "Nutrologia no puerpério e amamentação"
+- tema: "Principais comorbidades nutrológicas na gestação (incluindo dislipidemia)"
+- tema: "Acompanhamento nutrológico na gestação pós cirurgia bariátrica"
+- tema: "Nutrologia e ginecologia — anticoncepção e síndrome dos ovários policísticos"
+- tema: "Nutrologia e infertilidade"
+- tema: "Terapia hormonal na menopausa — riscos e perspectivas"
+- tema: "Terapia hormonal na população transgênero"
+
+# --- FITOTERAPIA ---
+- tema: "Introdução à fitoterapia — princípios, evidência e segurança"
+- tema: "Fitoterapia na síndrome metabólica"
+- tema: "Fitoterapia nas síndromes dispépticas"
+- tema: "Fitoterapia no esporte e no sistema locomotor"
+- tema: "Fitoterapia no sistema genital feminino"
+- tema: "Fitoterapia no sistema nervoso"
+- tema: "Fitoterapia na pediatria"
+
+# --- PACIENTE CRÍTICO ---
+- tema: "Paciente crítico eutrófico e com obesidade — avaliação, diagnóstico e alterações metabólicas"
+- tema: "Terapia nutricional em pacientes críticos — recomendações atuais e complicações"
+- tema: "Terapia nutricional em pacientes críticos cirúrgicos"
+- tema: "Fraqueza adquirida pós-CTI — fisiopatologia e prevenção"
+- tema: "Uso de hormônios na UTI"
+
+# --- ONCOLOGIA ---
+- tema: "Câncer — epidemiologia, fisiopatologia e implicações nutrológicas"
+- tema: "Caquexia no câncer — prevalência, diagnóstico e tratamento"
+- tema: "Terapia nutrológica oral na quimio e radioterapia"
+- tema: "Terapia nutrológica enteral antes e durante o tratamento oncológico"
+- tema: "Nutrição parenteral no câncer — indicações e particularidades"
+- tema: "Diarreia induzida por quimioterapia — abordagem clínica e nutrológica"
+- tema: "Antioxidantes no câncer — o paradoxo pró-oxidante"
+
+# --- CUIDADOS PALIATIVOS ---
+- tema: "Cuidados paliativos — conceitos, indicações e comunicação"
+- tema: "Terapia nutrológica no paciente em cuidados paliativos"
+
+# --- ENVELHECIMENTO ---
+- tema: "Envelhecimento — epidemiologia e fisiopatologia"
+- tema: "Avaliação nutricional no idoso"
+- tema: "Fragilidade no idoso — fisiopatologia, diagnóstico e tratamento"
+- tema: "Sarcopenia do idoso — fisiopatologia, diagnóstico e tratamento"
+- tema: "Obesidade sarcopênica no idoso — aporte calórico e proteico"
+- tema: "Subnutrição no idoso — aporte calórico e proteico"
+- tema: "Terapia nutrológica nos quadros demenciais"
+- tema: "Envelhecimento, inflamação e óxido-redução"
+
+# --- PEDIATRIA ---
+- tema: "Avaliação nutricional na pediatria"
+- tema: "Prematuro pós-alta hospitalar — acompanhamento nutrológico"
+- tema: "Fórmulas infantis — escolha e indicação"
+- tema: "Introdução alimentar na pediatria"
+- tema: "Dificuldades alimentares na criança e no adolescente"
+- tema: "Alergia à proteína do leite de vaca (APLV) — diagnóstico e manejo nutrológico"
+- tema: "Terapia nutrológica enteral e parenteral na pediatria"
+- tema: "Diabetes, obesidade e dislipidemias na infância e adolescência"
+- tema: "Constipação na infância e adolescência — manejo"
+- tema: "Transtorno do espectro autista — abordagem nutrológica"
+- tema: "Seletividade alimentar na infância"
+
+# --- TRANSTORNOS ALIMENTARES ---
+- tema: "Transtornos alimentares — definição, fisiopatologia e diagnóstico"
+- tema: "Transtornos alimentares — tratamento medicamentoso"
+- tema: "Psicologia e psicanálise nos transtornos alimentares"
+- tema: "Transtornos alimentares — atendimento nutricional"
+- tema: "Vigorexia e ortorexia — novos transtornos alimentares"
+
+# --- NUTROLOGIA ESPORTIVA ---
+- tema: "Metabolismo energético no exercício"
+- tema: "Hidratação e controle de peso em esportistas"
+- tema: "Nutrição pré, durante e pós-exercício"
+- tema: "Distúrbios alimentares em atletas — tríade da mulher atleta e RED-S"
+- tema: "Uso de hormônios, ética e doping no esporte"
+- tema: "Atleta transgênero — considerações nutrológicas e endocrinológicas"
+- tema: "Alimentação vegana no esporte"
+- tema: "Recursos ergogênicos — evidência e segurança"
+- tema: "Sono, exercício físico e recuperação muscular"

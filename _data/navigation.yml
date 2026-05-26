@@ -1,0 +1,15 @@
+# =============================================================================
+# MENU DE NAVEGAÇÃO SUPERIOR
+# =============================================================================
+# Define os links que aparecem no topo do site.
+# Para replicar pra outra especialidade, geralmente não precisa mudar nada aqui.
+
+main:
+  - title: "Home"
+    url: /
+  - title: "Aulas"
+    url: /aulas/
+  - title: "Temas"
+    url: /temas/
+  - title: "Sobre"
+    url: /sobre/
