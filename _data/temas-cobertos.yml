@@ -5,6 +5,12 @@
       "area": "ceratocone",
       "tema": "BAD-D (Belin-Ambrósio Display): interpretação e valores de corte",
       "tags": ["Pentacam", "BAD-D", "diagnóstico", "ceratocone", "screening", "ectasia", "TBI"]
+    },
+    {
+      "data": "2026-05-27",
+      "area": "refrativa",
+      "tema": "Femto-LASIK: parâmetros do flap — espessura, diâmetro, ângulo do side-cut e posição do hinge",
+      "tags": ["LASIK", "femtosegundo", "flap", "RSB", "PTA", "OBL", "biomecânica", "refrativa"]
     }
   ]
 }
