@@ -7,6 +7,9 @@
 
 # Tema (não alterar)
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+future: true
+
 minimal_mistakes_skin: "air"
 
 # =============================================================================
