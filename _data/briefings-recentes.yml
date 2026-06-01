@@ -1,0 +1,18 @@
+# =============================================================================
+# MEMÓRIA DE BRIEFINGS RECENTES — controle anti-repetição
+# =============================================================================
+# Mantido automaticamente pela routine. Registra os itens reportados nos
+# briefings dos últimos ~7 dias para evitar repetição.
+#
+# A routine:
+# 1. Lê este arquivo no início de cada execução.
+# 2. Evita reportar itens cujo "assunto" já apareceu nos últimos 7 dias.
+# 3. Adiciona os itens de hoje ao final.
+# 4. Remove entradas com mais de 7 dias.
+#
+# FORMATO:
+# - data: AAAA-MM-DD
+#   itens:
+#     - assunto: "identificador curto do assunto (ex: orforglipron-aprovacao-fda)"
+#       manchete: "manchete como foi publicada"
+# =============================================================================
