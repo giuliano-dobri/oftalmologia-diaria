@@ -35,13 +35,10 @@ timezone: "America/Sao_Paulo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
-paginate: 10
-paginate_path: /pagina/:num/
 timezone: America/Sao_Paulo
 
 # Plugins habilitados (funciona via remote_theme)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
