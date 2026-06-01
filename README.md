@@ -1,8 +1,8 @@
 # Editorial Diário de Nutrologia
 
-Site automatizado com briefing diário e aulas-pílula em nutrologia, geradas com apoio de inteligência artificial.
+Site automatizado com briefing diário e aulas-pílula em oftalmologia, geradas com apoio de inteligência artificial.
 
-🔗 Site no ar: https://giuliano-dobri.github.io/nutrologia-diaria/
+🔗 Site no ar: https://giuliano-dobri.github.io/oftalmologia-diaria/
 
 ---
 
