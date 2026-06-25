@@ -1,23 +1,21 @@
 {
   "briefings": [
     {
-      "data": "2026-06-01",
-      "itens": [
-        { "assunto": "icl-evo-tres-anos-fda", "area": "refrativa", "manchete": "ICL EVO+ confirma resultados a 3 anos em estudo multicenter FDA: eficácia 1,07, segurança 1,24" },
-        { "assunto": "ectasia-pos-lasik-cxl-subflap-tgprk", "area": "refrativa", "manchete": "Ectasia pós-LASIK: protocolo sequencial com CXL sub-flap e TGPRK de superfície mantém ganho visual em até 4 anos" },
-        { "assunto": "screening-parentes-primeiro-grau-ihd-cbi-tbi", "area": "ceratocone", "manchete": "Triagem multimodal em parentes de primeiro grau: combinação IHD + CBI + TBI atinge AUC de 0,999" },
-        { "assunto": "psoct-ia-ceratocone-subclínico", "area": "ceratocone", "manchete": "PS-OCT combinada com inteligência artificial distingue ceratocone subclínico de córnea fina saudável" },
-        { "assunto": "icl-torica-ceratocone-estavel-75pct-tres-linhas", "area": "ceratocone", "manchete": "ICL tórica em ceratocone estável: 75% dos olhos melhoram mais de 3 linhas de UDVA em 1 ano" },
-        { "assunto": "leaf-nanoparticulas-espinafre-olho-seco-cell", "area": "cornea", "manchete": "Nanopartículas de espinafre (LEAF) restauram antioxidante corneano e superam ciclosporina A em modelo pré-clínico" },
-        { "assunto": "geb101-crispr-tgfbi-distrofia-trial-fase1", "area": "cornea", "manchete": "FDA aprova IND para GEB-101: primeira terapia in vivo com CRISPR para distrofia corneana TGFBI inicia fase 1/2" }
-      ]
-    },
-    {
       "data": "2026-06-06",
       "itens": [
         { "assunto": "epioxa-j-code-cms-j2789", "area": "ceratocone", "manchete": "Epioxa (Glaukos) recebe código J permanente J2789 do CMS: reembolso efetivo em 1º de julho de 2026" },
         { "assunto": "deep-learning-corvis-st-ceratocone", "area": "ceratocone", "manchete": "CNN + LSTM em vídeos do Corvis ST alcança AUC ~0,93 e 91% de acurácia para diagnóstico de ceratocone" },
         { "assunto": "lacripep-fase2-ceratite-neurotrifica-fda-orphan-fasttrack", "area": "cornea", "manchete": "TearSolutions inicia fase 2 de Lacripep para ceratite neurotrófica com FDA Orphan Drug e Fast Track" }
+      ]
+    },
+    {
+      "data": "2026-06-25",
+      "itens": [
+        { "assunto": "cxl-profilatico-laser-refrativa-meta-analise", "area": "refrativa", "manchete": "CXL profilático associado à cirurgia laser melhora estabilidade visual no 1º ano pós-operatório — meta-análise de 12 estudos (1.252 olhos)" },
+        { "assunto": "cxl-protocolos-comparacao-dresden-acelerado-transepitelial", "area": "ceratocone", "manchete": "Revisão de 39 publicações: Dresden mantém superioridade biomecânica; CXL transepitelial com 60–70% de eficácia relativa" },
+        { "assunto": "epioxa-j-code-cms-j2789", "area": "ceratocone", "manchete": "Em acompanhamento: Epioxa J2789 efetivo em julho de 2026 — sem novidade adicional" },
+        { "assunto": "deep-learning-corvis-st-ceratocone", "area": "ceratocone", "manchete": "Em acompanhamento: deep learning no Corvis ST — sem novidade desde 06/06" },
+        { "assunto": "lacripep-fase2-ceratite-neurotrifica-fda-orphan-fasttrack", "area": "cornea", "manchete": "Em acompanhamento: Lacripep fase 2 — sem novidade desde 06/06" }
       ]
     }
   ]
