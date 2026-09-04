@@ -96,7 +96,7 @@ body {
 .hd {
   background: #1d3d5f;
   color: #ffffff;
-  padding: 8mm 14mm 7mm 14mm;
+  padding: 9.5mm 14mm 8.5mm 14mm;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,7 +108,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.55mm;
   text-transform: uppercase;
-  color: #8fd0d8;
+  color: #a5d8de;
   border: 0.35mm solid rgba(143,208,216,.55);
   border-radius: 5mm;
   padding: 1.1mm 3.2mm;
@@ -134,7 +134,7 @@ body {
   display: flex;
   gap: 6mm;
   align-items: baseline;
-  padding: 3.4mm 14mm;
+  padding: 4.8mm 14mm;
   background: #eef4f6;
   border-bottom: 0.3mm solid #d5e2e7;
   font-size: 8.6pt;
@@ -154,16 +154,16 @@ body {
 }
 
 /* ---------- main ---------- */
-.main { flex: 1; padding: 5.5mm 14mm 0 14mm; display: flex; flex-direction: column; gap: 4.5mm; }
+.main { flex: 1; padding: 10mm 14mm 0 14mm; display: flex; flex-direction: column; gap: 8.5mm; }
 .cols { display: flex; gap: 5mm; }
 .cols > * { flex: 1; }
 
 .card {
   background: #f3f7f9;
   border-radius: 2.5mm;
-  padding: 4.5mm 5mm;
+  padding: 5.5mm 6mm;
 }
-.card h2, .sec h2, .drops h2 {
+.card h2, .sec h2 {
   font-family: 'Archivo', sans-serif;
   font-size: 10.5pt;
   font-weight: 700;
@@ -179,9 +179,9 @@ ul.b { list-style: none; }
 ul.b li {
   position: relative;
   padding-left: 4.6mm;
-  font-size: 9.2pt;
-  line-height: 1.42;
-  margin-bottom: 1.9mm;
+  font-size: 9.5pt;
+  line-height: 1.45;
+  margin-bottom: 2.4mm;
 }
 ul.b li:last-child { margin-bottom: 0; }
 ul.b li::before {
@@ -192,7 +192,7 @@ ul.b li::before {
   width: 1.7mm;
   height: 1.7mm;
   border-radius: 50%;
-  background: #2e7d84;
+  background: #2a6d74;
 }
 strong { font-weight: 700; color: #1d3d5f; }
 
@@ -201,8 +201,8 @@ strong { font-weight: 700; color: #1d3d5f; }
 .timeline {
   position: relative;
   display: flex;
-  padding-top: 3.6mm;
-  margin-top: 1.4mm;
+  padding-top: 4.2mm;
+  margin-top: 2mm;
 }
 .timeline::before {
   content: "";
@@ -212,7 +212,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   right: 3%;
   height: 0.7mm;
   border-radius: 1mm;
-  background: linear-gradient(90deg, #bcd6db, #2e7d84);
+  background: linear-gradient(90deg, #bcd6db, #2a6d74);
 }
 .tl-item { flex: 1; text-align: center; position: relative; padding: 0 1mm; }
 .tl-item::before {
@@ -225,20 +225,20 @@ strong { font-weight: 700; color: #1d3d5f; }
   height: 2.6mm;
   border-radius: 50%;
   background: #ffffff;
-  border: 0.65mm solid #2e7d84;
+  border: 0.65mm solid #2a6d74;
 }
 .tl-item .d {
   font-family: 'Archivo', sans-serif;
   font-size: 8.6pt;
   font-weight: 700;
-  color: #2e7d84;
+  color: #2a6d74;
 }
-.tl-item .t { font-size: 7.9pt; line-height: 1.28; color: #46606e; margin-top: 0.7mm; }
+.tl-item .t { font-size: 8.2pt; line-height: 1.32; color: #46606e; margin-top: 1mm; }
 
 /* ---------- highlight boxes ---------- */
 .warn {
   background: #fdf4e3;
-  border-left: 1.4mm solid #d9a13b;
+  border-left: 1.4mm solid #c08e2e;
   border-radius: 1.8mm;
   padding: 3.4mm 4.5mm;
   font-size: 9.2pt;
@@ -266,33 +266,9 @@ strong { font-weight: 700; color: #1d3d5f; }
   gap: 2mm;
   margin-bottom: 2mm;
 }
-.alert ul.b li { margin-bottom: 1.3mm; font-size: 8.8pt; }
+.alert ul.b li { margin-bottom: 1.8mm; font-size: 9.1pt; }
 .alert ul.b li::before { background: #b3452f; }
 .alert .note { font-size: 8.2pt; color: #6b4b44; margin-top: 2mm; }
-
-/* ---------- drops table ---------- */
-.drops h2 { margin-bottom: 2mm; }
-.drops table { width: 100%; border-collapse: collapse; }
-.drops th {
-  font-family: 'Archivo', sans-serif;
-  font-size: 8.2pt;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.25mm;
-  color: #ffffff;
-  background: #2e7d84;
-  padding: 1.9mm 3mm;
-  text-align: left;
-}
-.drops th:first-child { border-radius: 1.5mm 0 0 0; }
-.drops th:last-child { border-radius: 0 1.5mm 0 0; }
-.drops td {
-  border: 0.3mm solid #cfdde2;
-  border-top: none;
-  height: 6.6mm;
-  padding: 1mm 3mm;
-  font-size: 9pt;
-}
 
 /* ---------- comparison page ---------- */
 .intro {
@@ -307,7 +283,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   padding: 5mm 5.5mm;
   background: #f3f7f9;
 }
-.cmp .ccard.hi { background: #e5f1f2; border: 0.45mm solid #2e7d84; }
+.cmp .ccard.hi { background: #e5f1f2; border: 0.45mm solid #2a6d74; }
 .cmp .tag {
   font-family: 'Archivo', sans-serif;
   font-size: 7.2pt;
@@ -317,7 +293,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   color: #6b8592;
   margin-bottom: 1.4mm;
 }
-.cmp .ccard.hi .tag { color: #2e7d84; }
+.cmp .ccard.hi .tag { color: #2a6d74; }
 .cmp h3 {
   font-family: 'Archivo', sans-serif;
   font-size: 12.5pt;
@@ -335,7 +311,7 @@ strong { font-weight: 700; color: #1d3d5f; }
 }
 .sum th { font-family: 'Archivo', sans-serif; font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.3mm; color: #1d3d5f; }
 .sum th:first-child, .sum td:first-child { text-align: left; }
-.sum td.y { color: #2e7d84; font-weight: 700; }
+.sum td.y { color: #2a6d74; font-weight: 700; }
 .sum td.n { color: #9db4bf; }
 .sum h2 { font-family: 'Archivo', sans-serif; font-size: 10.5pt; font-weight: 700; color: #1d3d5f; margin-bottom: 1.5mm; }
 .hibox {
@@ -346,12 +322,12 @@ strong { font-weight: 700; color: #1d3d5f; }
   font-size: 9.6pt;
   line-height: 1.5;
 }
-.hibox strong { color: #8fd0d8; }
+.hibox strong { color: #a5d8de; }
 .hibox h3 {
   font-family: 'Archivo', sans-serif;
   font-size: 10.5pt;
   font-weight: 700;
-  color: #8fd0d8;
+  color: #a5d8de;
   margin-bottom: 1.6mm;
 }
 
@@ -359,7 +335,7 @@ strong { font-weight: 700; color: #1d3d5f; }
 .ft {
   margin-top: auto;
   border-top: 0.4mm solid #d5e2e7;
-  padding: 4mm 14mm 5.5mm 14mm;
+  padding: 4.5mm 14mm 6.5mm 14mm;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -396,10 +372,10 @@ strong { font-weight: 700; color: #1d3d5f; }
       <div class="sub">Correção do grau 100% a laser, na superfície da córnea</div>
     </div>
     <div class="mark"><svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="22" stroke="#8fd0d8" stroke-width="1.6" opacity="0.55"/>
-<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#8fd0d8" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="24" cy="24" r="5.4" stroke="#8fd0d8" stroke-width="2"/>
-<circle cx="26" cy="22" r="1.5" fill="#8fd0d8"/>
+<circle cx="24" cy="24" r="22" stroke="#a5d8de" stroke-width="1.6" opacity="0.55"/>
+<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#a5d8de" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="24" cy="24" r="5.4" stroke="#a5d8de" stroke-width="2"/>
+<circle cx="26" cy="22" r="1.5" fill="#a5d8de"/>
 </svg></div>
   </header>
 
@@ -412,7 +388,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   <main class="main">
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
         <ul class="b">
           <li><strong>100% a laser:</strong> o excimer laser remove o epitélio que protege a superfície da córnea e, em seguida, corrige o grau.</li>
           <li>Anestesia feita apenas com <strong>colírio</strong>.</li>
@@ -421,7 +397,7 @@ strong { font-weight: 700; color: #1d3d5f; }
         </ul>
       </section>
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
         <ul class="b">
           <li>Ardência, sensação de “areia” nos olhos e sensibilidade à luz nas primeiras <strong>24–48&nbsp;horas</strong>.</li>
           <li>É necessário regenerar <strong>5 a 6 novas camadas de epitélio</strong> — por isso a melhora acontece semana após semana.</li>
@@ -432,7 +408,7 @@ strong { font-weight: 700; color: #1d3d5f; }
     </div>
 
     <section class="sec tl-sec">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
+      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
       <div class="timeline">
         <div class="tl-item"><div class="d">Dia 1–2</div><div class="t">ardência e sensibilidade à luz</div></div>
         <div class="tl-item"><div class="d">Dia 3–5</div><div class="t">visão começa a melhorar</div></div>
@@ -446,7 +422,7 @@ strong { font-weight: 700; color: #1d3d5f; }
 
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
         <ul class="b">
           <li><strong>Atividades habituais:</strong> entre 7 e 10 dias — pode ser antes ou depois, dependendo do tipo e da quantidade de grau corrigido.</li>
           <li><strong>Academia e exercícios sem impacto no rosto:</strong> a partir do 5º dia.</li>
@@ -456,7 +432,7 @@ strong { font-weight: 700; color: #1d3d5f; }
       </section>
       <div style="display:flex;flex-direction:column;gap:3.5mm">
         <div class="warn">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#d9a13b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></svg>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#c08e2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></svg>
           <div><strong>Óculos de sol: uso obrigatório.</strong> Use óculos com filtro de luz ultravioleta sempre que estiver em ambiente aberto durante o dia, por <strong>6 a 12 meses</strong>.</div>
         </div>
         <div class="alert">
@@ -466,19 +442,10 @@ strong { font-weight: 700; color: #1d3d5f; }
             <li>Secreção amarelada ou vermelhidão intensa;</li>
             <li>Piora súbita da visão ou trauma no olho operado.</li>
           </ul>
+          <div class="note">Na dúvida, fale com a equipe da clínica — estamos à disposição.</div>
         </div>
       </div>
     </div>
-
-    <section class="drops">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.5c3.6 4.6 6 8 6 11a6 6 0 0 1-12 0c0-3 2.4-6.4 6-11z"/></svg>Colírios prescritos</h2>
-      <table>
-        <tr><th style="width:38%">Colírio</th><th style="width:34%">Como usar</th><th>Por quanto tempo</th></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-      </table>
-    </section>
   </main>
 
   <footer class="ft">
@@ -506,10 +473,10 @@ strong { font-weight: 700; color: #1d3d5f; }
       <div class="sub">Correção do grau 100% a laser, com recuperação visual rápida</div>
     </div>
     <div class="mark"><svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="22" stroke="#8fd0d8" stroke-width="1.6" opacity="0.55"/>
-<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#8fd0d8" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="24" cy="24" r="5.4" stroke="#8fd0d8" stroke-width="2"/>
-<circle cx="26" cy="22" r="1.5" fill="#8fd0d8"/>
+<circle cx="24" cy="24" r="22" stroke="#a5d8de" stroke-width="1.6" opacity="0.55"/>
+<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#a5d8de" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="24" cy="24" r="5.4" stroke="#a5d8de" stroke-width="2"/>
+<circle cx="26" cy="22" r="1.5" fill="#a5d8de"/>
 </svg></div>
   </header>
 
@@ -522,7 +489,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   <main class="main">
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
         <ul class="b">
           <li><strong>100% a laser</strong>, com 2 tipos de laser: o <strong>femtossegundo</strong> cria o espaço na córnea e, depois, o <strong>excimer laser</strong> corrige o grau no espaço criado.</li>
           <li>Anestesia feita apenas com <strong>colírio</strong>.</li>
@@ -530,7 +497,7 @@ strong { font-weight: 700; color: #1d3d5f; }
         </ul>
       </section>
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
         <ul class="b">
           <li>Ardência e sensação de “areia” nas primeiras horas podem acontecer — <strong>é normal</strong>.</li>
           <li><strong>Recuperação rápida:</strong> a visão começa a melhorar poucas horas após a cirurgia.</li>
@@ -541,7 +508,7 @@ strong { font-weight: 700; color: #1d3d5f; }
     </div>
 
     <section class="sec tl-sec">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
+      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
       <div class="timeline">
         <div class="tl-item"><div class="d">Primeiras horas</div><div class="t">ardência leve; visão já começa a melhorar</div></div>
         <div class="tl-item"><div class="d">12–24 h</div><div class="t">maioria já consegue dirigir</div></div>
@@ -554,7 +521,7 @@ strong { font-weight: 700; color: #1d3d5f; }
 
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
         <ul class="b">
           <li><strong>Atividades habituais:</strong> retorno rápido, em média 1 a 2 dias.</li>
           <li><strong>Academia e exercícios sem impacto no rosto:</strong> a partir do 3º dia.</li>
@@ -575,16 +542,6 @@ strong { font-weight: 700; color: #1d3d5f; }
         </div>
       </div>
     </div>
-
-    <section class="drops">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.5c3.6 4.6 6 8 6 11a6 6 0 0 1-12 0c0-3 2.4-6.4 6-11z"/></svg>Colírios prescritos</h2>
-      <table>
-        <tr><th style="width:38%">Colírio</th><th style="width:34%">Como usar</th><th>Por quanto tempo</th></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-      </table>
-    </section>
   </main>
 
   <footer class="ft">
@@ -612,10 +569,10 @@ strong { font-weight: 700; color: #1d3d5f; }
       <div class="sub">Qual é a diferença entre os dois tipos de correção a laser?</div>
     </div>
     <div class="mark"><svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="22" stroke="#8fd0d8" stroke-width="1.6" opacity="0.55"/>
-<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#8fd0d8" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="24" cy="24" r="5.4" stroke="#8fd0d8" stroke-width="2"/>
-<circle cx="26" cy="22" r="1.5" fill="#8fd0d8"/>
+<circle cx="24" cy="24" r="22" stroke="#a5d8de" stroke-width="1.6" opacity="0.55"/>
+<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#a5d8de" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="24" cy="24" r="5.4" stroke="#a5d8de" stroke-width="2"/>
+<circle cx="26" cy="22" r="1.5" fill="#a5d8de"/>
 </svg></div>
   </header>
 
@@ -644,10 +601,10 @@ strong { font-weight: 700; color: #1d3d5f; }
         <h3>Personalizada (topoguiada)</h3>
         <div class="fig">
           <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="57" cy="62" rx="46" ry="42" stroke="#2e7d84" stroke-width="3"/>
-            <ellipse cx="61" cy="58" rx="35" ry="30" stroke="#2e7d84" stroke-width="3"/>
-            <ellipse cx="64" cy="56" rx="24" ry="19" stroke="#2e7d84" stroke-width="3"/>
-            <ellipse cx="66" cy="54" rx="13" ry="9" stroke="#2e7d84" stroke-width="3"/>
+            <ellipse cx="57" cy="62" rx="46" ry="42" stroke="#2a6d74" stroke-width="3"/>
+            <ellipse cx="61" cy="58" rx="35" ry="30" stroke="#2a6d74" stroke-width="3"/>
+            <ellipse cx="64" cy="56" rx="24" ry="19" stroke="#2a6d74" stroke-width="3"/>
+            <ellipse cx="66" cy="54" rx="13" ry="9" stroke="#2a6d74" stroke-width="3"/>
           </svg>
         </div>
         <ul class="b">
@@ -699,10 +656,10 @@ strong { font-weight: 700; color: #1d3d5f; }
       <div class="sub">Túnel na córnea feito 100% a laser para o implante do anel</div>
     </div>
     <div class="mark"><svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="22" stroke="#8fd0d8" stroke-width="1.6" opacity="0.55"/>
-<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#8fd0d8" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="24" cy="24" r="5.4" stroke="#8fd0d8" stroke-width="2"/>
-<circle cx="26" cy="22" r="1.5" fill="#8fd0d8"/>
+<circle cx="24" cy="24" r="22" stroke="#a5d8de" stroke-width="1.6" opacity="0.55"/>
+<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#a5d8de" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="24" cy="24" r="5.4" stroke="#a5d8de" stroke-width="2"/>
+<circle cx="26" cy="22" r="1.5" fill="#a5d8de"/>
 </svg></div>
   </header>
 
@@ -715,7 +672,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   <main class="main">
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
         <ul class="b">
           <li><strong>100% a laser:</strong> o laser de <strong>femtossegundo</strong> faz o túnel dentro da córnea por onde o anel será inserido.</li>
           <li>Anestesia feita apenas com <strong>colírio</strong>.</li>
@@ -723,7 +680,7 @@ strong { font-weight: 700; color: #1d3d5f; }
         </ul>
       </section>
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
         <ul class="b">
           <li>Ardência, sensação de “areia” nos olhos e sensibilidade à luz nas primeiras <strong>24–48&nbsp;horas</strong>.</li>
           <li>A visão começa a melhorar por volta de <strong>2 a 3 semanas</strong> após a cirurgia.</li>
@@ -734,7 +691,7 @@ strong { font-weight: 700; color: #1d3d5f; }
     </div>
 
     <section class="sec tl-sec">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
+      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
       <div class="timeline">
         <div class="tl-item"><div class="d">Dia 1–2</div><div class="t">ardência e sensibilidade à luz</div></div>
         <div class="tl-item"><div class="d">Dia 5</div><div class="t">academia sem impacto no rosto</div></div>
@@ -748,7 +705,7 @@ strong { font-weight: 700; color: #1d3d5f; }
 
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
         <ul class="b">
           <li><strong>Atividades habituais:</strong> entre 7 e 10 dias — pode ser antes ou depois desse prazo.</li>
           <li><strong>Academia e exercícios sem impacto no rosto:</strong> a partir do 5º dia.</li>
@@ -768,16 +725,6 @@ strong { font-weight: 700; color: #1d3d5f; }
         </div>
       </div>
     </div>
-
-    <section class="drops">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.5c3.6 4.6 6 8 6 11a6 6 0 0 1-12 0c0-3 2.4-6.4 6-11z"/></svg>Colírios prescritos</h2>
-      <table>
-        <tr><th style="width:38%">Colírio</th><th style="width:34%">Como usar</th><th>Por quanto tempo</th></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-      </table>
-    </section>
   </main>
 
   <footer class="ft">
@@ -805,10 +752,10 @@ strong { font-weight: 700; color: #1d3d5f; }
       <div class="sub">Fortalecimento da córnea com riboflavina e luz ultravioleta</div>
     </div>
     <div class="mark"><svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="22" stroke="#8fd0d8" stroke-width="1.6" opacity="0.55"/>
-<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#8fd0d8" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="24" cy="24" r="5.4" stroke="#8fd0d8" stroke-width="2"/>
-<circle cx="26" cy="22" r="1.5" fill="#8fd0d8"/>
+<circle cx="24" cy="24" r="22" stroke="#a5d8de" stroke-width="1.6" opacity="0.55"/>
+<path d="M8 24C12.5 16.5 17.8 12.8 24 12.8C30.2 12.8 35.5 16.5 40 24C35.5 31.5 30.2 35.2 24 35.2C17.8 35.2 12.5 31.5 8 24Z" stroke="#a5d8de" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="24" cy="24" r="5.4" stroke="#a5d8de" stroke-width="2"/>
+<circle cx="26" cy="22" r="1.5" fill="#a5d8de"/>
 </svg></div>
   </header>
 
@@ -821,7 +768,7 @@ strong { font-weight: 700; color: #1d3d5f; }
   <main class="main">
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l7 7"/><path d="M14 4l-3 3"/><path d="M4 14l3-3"/><circle cx="15" cy="15" r="5.5"/><path d="M15 12.5v2.5l1.8 1.8"/></svg>Como é o procedimento?</h2>
         <ul class="b">
           <li>Realizado com a instilação de um colírio chamado <strong>riboflavina</strong> (vitamina B2) que, ao reagir com a <strong>luz UV</strong>, aumenta a resistência da córnea.</li>
           <li>Anestesia feita apenas com <strong>colírio</strong>.</li>
@@ -829,7 +776,7 @@ strong { font-weight: 700; color: #1d3d5f; }
         </ul>
       </section>
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12C5.6 6.8 8.7 4.6 12 4.6s6.4 2.2 9.5 7.4c-3.1 5.2-6.2 7.4-9.5 7.4S5.6 17.2 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>O que esperar no pós-operatório</h2>
         <ul class="b">
           <li>Ardência, sensação de “areia” nos olhos e sensibilidade à luz nas primeiras <strong>24–48&nbsp;horas</strong>.</li>
           <li>A visão começa a melhorar por volta de <strong>2 a 3 semanas</strong> após a cirurgia.</li>
@@ -840,7 +787,7 @@ strong { font-weight: 700; color: #1d3d5f; }
     </div>
 
     <section class="sec tl-sec">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
+      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17"/><path d="M8 2.8v4"/><path d="M16 2.8v4"/></svg>Linha do tempo da recuperação</h2>
       <div class="timeline">
         <div class="tl-item"><div class="d">Dia 1–2</div><div class="t">ardência e sensibilidade à luz</div></div>
         <div class="tl-item"><div class="d">Dia 5</div><div class="t">academia sem impacto no rosto</div></div>
@@ -854,7 +801,7 @@ strong { font-weight: 700; color: #1d3d5f; }
 
     <div class="cols">
       <section class="card">
-        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
+        <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2a6d74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.3-5.6"/></svg>Cuidados e liberações</h2>
         <ul class="b">
           <li><strong>Atividades habituais:</strong> entre 7 e 10 dias — pode ser antes ou depois desse prazo.</li>
           <li><strong>Academia e exercícios sem impacto no rosto:</strong> a partir do 5º dia.</li>
@@ -864,7 +811,7 @@ strong { font-weight: 700; color: #1d3d5f; }
       </section>
       <div style="display:flex;flex-direction:column;gap:3.5mm">
         <div class="warn">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#d9a13b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></svg>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#c08e2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></svg>
           <div><strong>Óculos de sol: uso obrigatório.</strong> Use óculos com filtro de luz ultravioleta sempre que estiver em ambiente aberto durante o dia, por <strong>6 a 12 meses</strong>.</div>
         </div>
         <div class="alert">
@@ -874,19 +821,10 @@ strong { font-weight: 700; color: #1d3d5f; }
             <li>Secreção amarelada ou vermelhidão intensa;</li>
             <li>Piora súbita da visão ou trauma no olho operado.</li>
           </ul>
+          <div class="note">Na dúvida, fale com a equipe da clínica — estamos à disposição.</div>
         </div>
       </div>
     </div>
-
-    <section class="drops">
-      <h2><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2e7d84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.5c3.6 4.6 6 8 6 11a6 6 0 0 1-12 0c0-3 2.4-6.4 6-11z"/></svg>Colírios prescritos</h2>
-      <table>
-        <tr><th style="width:38%">Colírio</th><th style="width:34%">Como usar</th><th>Por quanto tempo</th></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-      </table>
-    </section>
   </main>
 
   <footer class="ft">
